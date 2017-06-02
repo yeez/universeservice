@@ -1,10 +1,5 @@
 package com.universeservice.domain.entity;
 
-import java.util.Date;
-
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
-
 public class SearchParameters {
 	
 	private String eventNameParameter;
