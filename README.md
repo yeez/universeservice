@@ -45,7 +45,7 @@ localhost:8080/v1/events/findPlanets
 
 POST the searchParameter object with the following format to specify your search parameter:
 
-ex1 search by Date Range: {
+ex1 search by Date Range searchParameter JSON: {
 	"eventNameParameter":null,
     "eventTypeParameter":null,
     "upperLimitEventDistancParameter":null,
@@ -56,7 +56,7 @@ ex1 search by Date Range: {
   	"lowerLimitEventDiscoveryDateParameter":"2017-01-01"
 }
 
-ex2 search by EventName: {
+ex2 search by EventName searchParameter JSON: {
 	"eventNameParameter":"Event Name 6",
     "eventTypeParameter":null,
     "upperLimitEventDistancParameter":null,
