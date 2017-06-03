@@ -35,13 +35,13 @@ P.S dont forget to use sample data json from universeservice/src/main/resources/
 
 
 # To return closest 100 Planets
-localhost:8080/v1/events/nearest100
+http://localhost:8080/v1/events/nearest100
 
 
 
 # Perform Search Operation
 You can perform search operations on Event objects by calling the POST end point:
-localhost:8080/v1/events/findPlanets
+http://localhost:8080/v1/events/findPlanets
 
 POST the searchParameter object with the following format to specify your search parameter:
 
